@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weather"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:3:6-67
+11-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:3:23-65
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:4:6-80
+12-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:4:23-77
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->[:geolocator_android] /home/paras/Desktop/FlutterProject/weather/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+13-->[:geolocator_android] /home/paras/Desktop/FlutterProject/weather/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+14-->[:location] /home/paras/Desktop/FlutterProject/weather/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+14-->[:location] /home/paras/Desktop/FlutterProject/weather/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:18.1.0] /home/paras/.gradle/caches/transforms-3/a0e34175b89fa528462076cc4208822f/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:18.1.0] /home/paras/.gradle/caches/transforms-3/a0e34175b89fa528462076cc4208822f/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:18.1.0] /home/paras/.gradle/caches/transforms-3/a0e34175b89fa528462076cc4208822f/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:18.1.0] /home/paras/.gradle/caches/transforms-3/a0e34175b89fa528462076cc4208822f/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:18.1.0] /home/paras/.gradle/caches/transforms-3/a0e34175b89fa528462076cc4208822f/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:18.1.0] /home/paras/.gradle/caches/transforms-3/a0e34175b89fa528462076cc4208822f/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:18.1.0] /home/paras/.gradle/caches/transforms-3/a0e34175b89fa528462076cc4208822f/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:18.1.0] /home/paras/.gradle/caches/transforms-3/a0e34175b89fa528462076cc4208822f/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+25    </queries>
+26
+27    <permission
+27-->[androidx.core:core:1.9.0] /home/paras/.gradle/caches/transforms-3/5f80b20db3afa86c72a9766b008d752d/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+28        android:name="com.example.weather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.9.0] /home/paras/.gradle/caches/transforms-3/5f80b20db3afa86c72a9766b008d752d/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.9.0] /home/paras/.gradle/caches/transforms-3/5f80b20db3afa86c72a9766b008d752d/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.example.weather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.9.0] /home/paras/.gradle/caches/transforms-3/5f80b20db3afa86c72a9766b008d752d/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.9.0] /home/paras/.gradle/caches/transforms-3/5f80b20db3afa86c72a9766b008d752d/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+32
+33    <application
+34        android:name="android.app.Application"
+34-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:7:9-42
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.9.0] /home/paras/.gradle/caches/transforms-3/5f80b20db3afa86c72a9766b008d752d/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+36        android:icon="@mipmap/ic_launcher"
+36-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:8:9-43
+37        android:label="weather" >
+37-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:6:9-32
+38        <meta-data
+38-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:9:9-10:73
+39            android:name="com.google.android.geo.API_KEY"
+39-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:9:20-65
+40            android:value="AIzaSyAJ2rse-bzd9UpsQFeKs31ezSJDnWXNpXg" />
+40-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:10:16-71
+41
+42        <activity
+42-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:11:9-31:20
+43            android:name="com.example.weather.MainActivity"
+43-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:12:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:16:13-163
+45            android:exported="true"
+45-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:13:13-36
+46            android:hardwareAccelerated="true"
+46-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:17:13-47
+47            android:launchMode="singleTop"
+47-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:14:13-43
+48            android:theme="@style/LaunchTheme"
+48-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:15:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:18:13-55
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+57-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:23:13-26:17
+58                android:name="io.flutter.embedding.android.NormalTheme"
+58-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:24:15-70
+59                android:resource="@style/NormalTheme" />
+59-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:25:15-52
+60
+61            <intent-filter>
+61-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:27:13-30:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:28:17-68
+62-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:28:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:29:17-76
+64-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:29:27-74
+65            </intent-filter>
+66        </activity>
+67        <!--
+68             Don't delete the meta-data below.
+69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+70        -->
+71        <meta-data
+71-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:34:9-36:33
+72            android:name="flutterEmbedding"
+72-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:35:13-44
+73            android:value="2" />
+73-->/home/paras/Desktop/FlutterProject/weather/android/app/src/main/AndroidManifest.xml:36:13-30
+74
+75        <service
+75-->[:geolocator_android] /home/paras/Desktop/FlutterProject/weather/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+76            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+76-->[:geolocator_android] /home/paras/Desktop/FlutterProject/weather/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+77            android:enabled="true"
+77-->[:geolocator_android] /home/paras/Desktop/FlutterProject/weather/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+78            android:exported="false"
+78-->[:geolocator_android] /home/paras/Desktop/FlutterProject/weather/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+79            android:foregroundServiceType="location" />
+79-->[:geolocator_android] /home/paras/Desktop/FlutterProject/weather/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+80        <service
+80-->[:location] /home/paras/Desktop/FlutterProject/weather/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-17:56
+81            android:name="com.lyokone.location.FlutterLocationService"
+81-->[:location] /home/paras/Desktop/FlutterProject/weather/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-71
+82            android:enabled="true"
+82-->[:location] /home/paras/Desktop/FlutterProject/weather/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-35
+83            android:exported="false"
+83-->[:location] /home/paras/Desktop/FlutterProject/weather/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+84            android:foregroundServiceType="location" />
+84-->[:location] /home/paras/Desktop/FlutterProject/weather/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-53
+85
+86        <uses-library
+86-->[androidx.window:window:1.0.0-beta04] /home/paras/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+87            android:name="androidx.window.extensions"
+87-->[androidx.window:window:1.0.0-beta04] /home/paras/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+88            android:required="false" />
+88-->[androidx.window:window:1.0.0-beta04] /home/paras/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+89        <uses-library
+89-->[androidx.window:window:1.0.0-beta04] /home/paras/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+90            android:name="androidx.window.sidecar"
+90-->[androidx.window:window:1.0.0-beta04] /home/paras/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+91            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+91-->[androidx.window:window:1.0.0-beta04] /home/paras/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+92        <uses-library
+92-->[com.google.android.gms:play-services-maps:18.1.0] /home/paras/.gradle/caches/transforms-3/a0e34175b89fa528462076cc4208822f/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+93            android:name="org.apache.http.legacy"
+93-->[com.google.android.gms:play-services-maps:18.1.0] /home/paras/.gradle/caches/transforms-3/a0e34175b89fa528462076cc4208822f/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+94            android:required="false" />
+94-->[com.google.android.gms:play-services-maps:18.1.0] /home/paras/.gradle/caches/transforms-3/a0e34175b89fa528462076cc4208822f/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+95
+96        <activity
+96-->[com.google.android.gms:play-services-base:18.1.0] /home/paras/.gradle/caches/transforms-3/24bd5ae211488322aa8c48f41a7bee4d/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+97            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+97-->[com.google.android.gms:play-services-base:18.1.0] /home/paras/.gradle/caches/transforms-3/24bd5ae211488322aa8c48f41a7bee4d/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+98            android:exported="false"
+98-->[com.google.android.gms:play-services-base:18.1.0] /home/paras/.gradle/caches/transforms-3/24bd5ae211488322aa8c48f41a7bee4d/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+99-->[com.google.android.gms:play-services-base:18.1.0] /home/paras/.gradle/caches/transforms-3/24bd5ae211488322aa8c48f41a7bee4d/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+100
+101        <meta-data
+101-->[com.google.android.gms:play-services-basement:18.1.0] /home/paras/.gradle/caches/transforms-3/f46b9773282b7a3d38863a46e0e0b5d1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+102            android:name="com.google.android.gms.version"
+102-->[com.google.android.gms:play-services-basement:18.1.0] /home/paras/.gradle/caches/transforms-3/f46b9773282b7a3d38863a46e0e0b5d1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+103            android:value="@integer/google_play_services_version" />
+103-->[com.google.android.gms:play-services-basement:18.1.0] /home/paras/.gradle/caches/transforms-3/f46b9773282b7a3d38863a46e0e0b5d1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+104    </application>
+105
+106</manifest>

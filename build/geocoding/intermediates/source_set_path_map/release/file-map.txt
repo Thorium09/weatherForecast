@@ -1,0 +1,12 @@
+com.baseflow.geocoding-jetified-window-java-1.0.0-beta04-0 /home/paras/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/res
+com.baseflow.geocoding-core-1.6.0-1 /home/paras/.gradle/caches/transforms-3/4ca28c4a71705f8a687c69dda140a277/transformed/core-1.6.0/res
+com.baseflow.geocoding-jetified-annotation-experimental-1.1.0-2 /home/paras/.gradle/caches/transforms-3/8965c941cf4bee4d72541b965c7c9d39/transformed/jetified-annotation-experimental-1.1.0/res
+com.baseflow.geocoding-jetified-window-1.0.0-beta04-3 /home/paras/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/res
+com.baseflow.geocoding-main-4 /home/paras/.pub-cache/hosted/pub.dev/geocoding-2.0.5/android/src/main/res
+com.baseflow.geocoding-release-5 /home/paras/.pub-cache/hosted/pub.dev/geocoding-2.0.5/android/src/release/res
+com.baseflow.geocoding-pngs-6 /home/paras/Desktop/FlutterProject/weather/build/geocoding/generated/res/pngs/release
+com.baseflow.geocoding-resValues-7 /home/paras/Desktop/FlutterProject/weather/build/geocoding/generated/res/resValues/release
+com.baseflow.geocoding-rs-8 /home/paras/Desktop/FlutterProject/weather/build/geocoding/generated/res/rs/release
+com.baseflow.geocoding-mergeReleaseResources-9 /home/paras/Desktop/FlutterProject/weather/build/geocoding/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.baseflow.geocoding-mergeReleaseResources-10 /home/paras/Desktop/FlutterProject/weather/build/geocoding/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.baseflow.geocoding-merged_res-11 /home/paras/Desktop/FlutterProject/weather/build/geocoding/intermediates/merged_res/release

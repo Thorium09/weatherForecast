@@ -1,0 +1,16 @@
+com.lyokone.location-jetified-window-java-1.0.0-beta04-0 /home/paras/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/res
+com.lyokone.location-core-1.6.0-1 /home/paras/.gradle/caches/transforms-3/4ca28c4a71705f8a687c69dda140a277/transformed/core-1.6.0/res
+com.lyokone.location-coordinatorlayout-1.0.0-2 /home/paras/.gradle/caches/transforms-3/658c795313ef4882e96b91cbdc33f336/transformed/coordinatorlayout-1.0.0/res
+com.lyokone.location-jetified-annotation-experimental-1.1.0-3 /home/paras/.gradle/caches/transforms-3/8965c941cf4bee4d72541b965c7c9d39/transformed/jetified-annotation-experimental-1.1.0/res
+com.lyokone.location-jetified-play-services-base-16.0.1-4 /home/paras/.gradle/caches/transforms-3/a4edb5e009ef17fd40b2f83b701624e8/transformed/jetified-play-services-base-16.0.1/res
+com.lyokone.location-jetified-window-1.0.0-beta04-5 /home/paras/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/res
+com.lyokone.location-media-1.0.0-6 /home/paras/.gradle/caches/transforms-3/f057e7418cf3ed9a7aa575bdc69ad668/transformed/media-1.0.0/res
+com.lyokone.location-jetified-play-services-basement-16.0.1-7 /home/paras/.gradle/caches/transforms-3/fbb383f6b4311086bb416962ae7372d0/transformed/jetified-play-services-basement-16.0.1/res
+com.lyokone.location-main-8 /home/paras/.pub-cache/hosted/pub.dev/location-4.4.0/android/src/main/res
+com.lyokone.location-release-9 /home/paras/.pub-cache/hosted/pub.dev/location-4.4.0/android/src/release/res
+com.lyokone.location-pngs-10 /home/paras/Desktop/FlutterProject/weather/build/location/generated/res/pngs/release
+com.lyokone.location-resValues-11 /home/paras/Desktop/FlutterProject/weather/build/location/generated/res/resValues/release
+com.lyokone.location-rs-12 /home/paras/Desktop/FlutterProject/weather/build/location/generated/res/rs/release
+com.lyokone.location-mergeReleaseResources-13 /home/paras/Desktop/FlutterProject/weather/build/location/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.lyokone.location-mergeReleaseResources-14 /home/paras/Desktop/FlutterProject/weather/build/location/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.lyokone.location-merged_res-15 /home/paras/Desktop/FlutterProject/weather/build/location/intermediates/merged_res/release
