@@ -1,16 +1,71 @@
-# weather
+# WeatherForecast App
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Provides weather Forecast Details
+- Uses user's live location
+- Shows MapView with Air temperature and precipitation
+- Provides weather data of last 5 days 
+- Provides Hourly Forecast of next 12 Hours
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🚀 About Me
+I'm a enthusiat android developer with experience of 1 year.
+I'm begineer in web development.
+
+## 🔗 LinkedIn
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paras-jangid-9a92b2213)
+
+
+## Authors
+
+- [Paras Jangid](https://github.com/Thorium09)
+
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+## Contributing
+
+Contributions are always welcome!
+
+See contributing.md for ways to get started.
+
+Please adhere to this project's code of conduct.
+
+
+## Documentation
+
+[Documentationhttps://docs.flutter.dev/)
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at jangidparas826@gmail.com
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Lessons Learned
+
+- Learned how to use Geolocator and GeoCoding in flutter
+- Permission Handler
+- Rest API
+- FutureBuilder
+
+
+## Tech Stack
+
+Language:  Dart (Flutter)
+API:       One Call API 3.0
+API:       Google Map API
+
